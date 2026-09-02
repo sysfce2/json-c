@@ -87,7 +87,7 @@ JSON_EXPORT struct json_object_iterator json_object_iter_init_default(void);
  *              by calling json_object_add(), provided the key already exists.
  *              Attempting to use an invalidated iterator in any way, other
  *              than comparing it to the end iterator, is *undefined behavior*.
- *              Passing such an iterator to any of the the json_object_iterator
+ *              Passing such an iterator to any of the json_object_iterator
  *              functions is not even guaranteed to fail in any consistent way.
  *
  * @param obj	JSON Object instance (MUST be of type json_object)
